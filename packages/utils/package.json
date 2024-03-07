@@ -1,0 +1,11 @@
+{
+  "name": "@duyiui-plus/utils",
+  "version": "1.0.0",
+  "description": "this is utils for duyiui-plus",
+  "main": "index.ts",
+  "types": "types.d.ts",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
