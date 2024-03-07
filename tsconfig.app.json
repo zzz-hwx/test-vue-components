@@ -3,6 +3,7 @@
   "include": [
     "packages/components/**/*.ts",
     "packages/components/**/*.vue",
+    "vue-shim.d.ts",
   ],
   "exclude": ["src/**/__tests__/*"],
   "compilerOptions": {
