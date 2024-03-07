@@ -2,7 +2,7 @@ import './assets/main.css'
 
 import { createApp } from 'vue'
 import App from './App.vue'
-import router from './router/index'
+import router from './router/index.ts';
 
 // 单独引入各个组件
 // import DuyiButton from '@duyiui-plus/components/button'
