@@ -18,6 +18,11 @@ const router = createRouter({
       path: '/dialog',
       name: 'dialog',
       component: () => import('../views/DialogView.vue')
+    },
+    {
+      path: '/pager',
+      name: 'pager',
+      component: () => import('../views/PagerView.vue')
     }
   ],
   linkActiveClass: "active",

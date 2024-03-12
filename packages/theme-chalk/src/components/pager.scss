@@ -1,0 +1,33 @@
+@use "../mixins/mixins.scss" as *;
+
+.#{$namespace}-pager {
+  text-align: center;
+  a {
+    border: 1px solid #e1e2e3;
+    background-color: #f0f2f5;
+    color: #303133;
+    height: 34px;
+    display: inline-block;
+    line-height: 34px;
+    border-radius: 2px;
+    padding: 0 12px;
+    margin: 8px;
+    cursor: pointer;
+    user-select: none;
+    &:hover {
+      color: #00a2f9;
+    }
+    /* 当前页会挂上 active 类 */
+    &.active {
+      //   border: none;
+      color: #fff;
+      background-color: #00a2f9;
+      border-color: #00a2f9;
+    }
+    /* a 标签禁用的时候会挂上 disabled 类 */
+    &.disabled {
+      color: #ccc;
+      cursor: not-allowed;
+    }
+  }
+}
