@@ -13,6 +13,11 @@ const router = createRouter({
       path: '/card',
       name: 'card',
       component: () => import('../views/CardView.vue')
+    },
+    {
+      path: '/dialog',
+      name: 'dialog',
+      component: () => import('../views/DialogView.vue')
     }
   ],
   linkActiveClass: "active",

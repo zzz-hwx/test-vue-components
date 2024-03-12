@@ -3,6 +3,7 @@
   <nav class="nav">
     <router-link to="/">Button</router-link>
     <router-link to="/card">Card</router-link>
+    <router-link to="/dialog">Dialog</router-link>
   </nav>
   <div class="displayArea">
     <router-view></router-view>
